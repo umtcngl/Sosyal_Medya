@@ -1,0 +1,40 @@
+/* Dikey kaydırma çubuğu */
+::-webkit-scrollbar {
+    width: 5px; /* Genişlik */
+}
+
+/* Dikey kaydırma çubuğunun parçaları (kaydırma yönünde) */
+::-webkit-scrollbar-thumb {
+    background: #32c8df; /* Kaydırma çubuğunun rengi */
+}
+
+/* Dikey kaydırma çubuğunun arka planı */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Kaydırma çubuğunun arka plan rengi */
+}
+
+/* Dikey kaydırma çubuğu başlangıç ve bitiş parçaları */
+::-webkit-scrollbar-corner {
+    background: transparent; /* Kaydırma çubuğu köşelerinin rengi */
+}
+
+.card123123 {
+    height: 200px;
+    transition: transform 0.3s ease;
+}
+.card123123:hover{
+    transform: scale(1.1);
+}
+.card123123:active {
+    transform: scale(1.0) !important;
+}
+.btn {
+    transition: transform 0.3s ease !important;
+}
+
+.btn:hover {
+    transform: scale(1.1) !important;
+}
+.btn:active {
+    transform: scale(1.0) !important;
+}
